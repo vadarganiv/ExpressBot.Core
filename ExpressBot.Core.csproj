@@ -2,14 +2,23 @@
 
   <PropertyGroup>
   <PackageId>ExpressBot.Core</PackageId>
-  <Version>0.1.0</Version>
+  <Version>0.1.1</Version>
   <Authors>vadarganiv</Authors>
-  <Description>ExpressBot.Core is a foundational library that provides models for JSON response messages from Express Box services. It also includes interfaces for the BotXApi and BotApi. As a base library, it primarily focuses on defining structures and does not include any functional logic. This library serves as the core building block for interacting with Express Box services and bot APIs, laying the groundwork for more complex implementations.</Description>
+  <Description>Models, BotXApi and BotApi interfaces, and an HMAC-SHA256 signature helper for integrations with the eXpress enterprise messenger.</Description>
   <RepositoryUrl>https://github.com/vadarganiv/ExpressBot.Core</RepositoryUrl>
+  <RepositoryType>git</RepositoryType>
+  <PackageProjectUrl>https://github.com/vadarganiv/ExpressBot.Core</PackageProjectUrl>
+  <PackageReadmeFile>README.md</PackageReadmeFile>
+  <PackageTags>Bot;Messenger;Express;Models;BotX</PackageTags>
+  <PackageReleaseNotes>Documentation and packaging update: embedded README, GitHub project and source links, and clarified package scope. Public API unchanged from 0.1.0.</PackageReleaseNotes>
   <PackageLicenseExpression>MIT</PackageLicenseExpression>
   <TargetFramework>net8.0</TargetFramework>
   <ImplicitUsings>enable</ImplicitUsings>
   <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>
