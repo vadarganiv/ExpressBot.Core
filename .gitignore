@@ -1,0 +1,11 @@
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+.env
+.env.*
+appsettings.local.json
+appsettings.*.local.json
+*.nupkg
+*.snupkg

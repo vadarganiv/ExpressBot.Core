@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+  <PackageId>ExpressBot.Core</PackageId>
+  <Version>0.1.0</Version>
+  <Authors>vadarganiv</Authors>
+  <Description>ExpressBot.Core is a foundational library that provides models for JSON response messages from Express Box services. It also includes interfaces for the BotXApi and BotApi. As a base library, it primarily focuses on defining structures and does not include any functional logic. This library serves as the core building block for interacting with Express Box services and bot APIs, laying the groundwork for more complex implementations.</Description>
+  <RepositoryUrl>https://github.com/vadarganiv/ExpressBot.Core</RepositoryUrl>
+  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  <TargetFramework>net8.0</TargetFramework>
+  <ImplicitUsings>enable</ImplicitUsings>
+  <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
